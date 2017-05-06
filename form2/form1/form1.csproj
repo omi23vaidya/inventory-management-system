@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56E0F998-0730-4C3E-9B07-740582ED2D50}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>form1</RootNamespace>
+    <AssemblyName>form1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dept.Designer.cs">
+      <DependentUpon>dept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Food_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Food_update.Designer.cs">
+      <DependentUpon>Food_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Garments_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Garments_update.Designer.cs">
+      <DependentUpon>Garments_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="garments_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="garments_view.Designer.cs">
+      <DependentUpon>garments_view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeAppliances_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeAppliances_update.Designer.cs">
+      <DependentUpon>HomeAppliances_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLException.cs" />
+    <Compile Include="store1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>store1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="store1DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>store1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="store1DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>store1DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="store1DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>store1DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="store1DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>store1DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="store1DataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>store1DataSet5.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="dept.resx">
+      <DependentUpon>dept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Food_update.resx">
+      <DependentUpon>Food_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Garments_update.resx">
+      <DependentUpon>Garments_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="garments_view.resx">
+      <DependentUpon>garments_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeAppliances_update.resx">
+      <DependentUpon>HomeAppliances_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="store1DataSet.xsc">
+      <DependentUpon>store1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="store1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>store1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="store1DataSet.xss">
+      <DependentUpon>store1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="store1DataSet1.xsc">
+      <DependentUpon>store1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="store1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>store1DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="store1DataSet1.xss">
+      <DependentUpon>store1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="store1DataSet2.xsc">
+      <DependentUpon>store1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="store1DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>store1DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="store1DataSet2.xss">
+      <DependentUpon>store1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="store1DataSet3.xsc">
+      <DependentUpon>store1DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="store1DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>store1DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="store1DataSet3.xss">
+      <DependentUpon>store1DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="store1DataSet4.xsc">
+      <DependentUpon>store1DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="store1DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>store1DataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="store1DataSet4.xss">
+      <DependentUpon>store1DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="store1DataSet5.xsc">
+      <DependentUpon>store1DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="store1DataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>store1DataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="store1DataSet5.xss">
+      <DependentUpon>store1DataSet5.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
